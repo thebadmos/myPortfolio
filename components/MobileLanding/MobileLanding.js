@@ -15,7 +15,7 @@ const MobileLanding = () => {
                     <p>I am a Frontend Developer. I create accessible and intuitive web applications by using modern web technologies.
                         I am currently exploring the decentralized web.</p>
                     
-                    <Link href="Work">
+                    <Link href="Work" passHref>
                             <div className={styles.explore}>
                                 <a>
                                     <p>Explore</p>

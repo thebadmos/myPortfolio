@@ -93,7 +93,7 @@ const Resume = () => {
           </h4>
           <p>April 2022 - Present</p>
           <p>
-            I contributed to building user interface for the company's products.
+            I contributed to building user interface for the company&apos;s products.
           </p>
           <ul>
             <li>
