@@ -11,8 +11,8 @@ const Work1 = () => {
       title: "Portfolio",
       tools: "Nextjs, CSS",
       description: "A portfolio website showcasing my works and resume.",
-      // live: "https://dam-kols.vercel.app/",
-      code: "https://github.com/Damkols/dam-kols",
+      live: "#",
+      code: "https://github.com/thebadmos/thebadmos",
       id: 1,
     },
 

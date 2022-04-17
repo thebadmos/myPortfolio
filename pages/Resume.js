@@ -38,7 +38,7 @@ const Resume = () => {
             
             <li>
               <a
-                href="https://docs.google.com/document/d/1RSEx5hRJ9pqsqC9ZQ3rCfJxdo09vKlVA2GNg1DwB9ks/edit"
+                href="https://drive.google.com/file/d/1ph4maLOXHQwxz5nnnMH7NDsQM5T2FNRb/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
