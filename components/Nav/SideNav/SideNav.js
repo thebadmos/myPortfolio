@@ -71,7 +71,7 @@ const SideNav = () => {
                             <p><i><FaNode /></i></p>
                             <a href="https://olamijibadmos.hashnode.dev/"
                             target="_blank"
-                            rel="noopener noreferrer">HashNnode</a>
+                            rel="noopener noreferrer">Hashnode</a>
                             <p><i><FaExternalLinkAlt /></i></p>
                         </li>
                     </ul>
