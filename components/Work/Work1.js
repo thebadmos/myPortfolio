@@ -8,6 +8,24 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
   const [works, setWorks] = useState([
     {
+      title: "TodayToday",
+      tools: "ReactJs, Tailwind Css, API",
+      description: "Online marketplace that provides buyers and sellers with an avenue to meet and exchange goods and services",
+      live: "https://today-today.vercel.app/",
+      code: "https://github.com/thebadmos/TodayToday",
+      id: 12,
+    },
+
+    {
+      title: "LogiKeep",
+      tools: "ReactJs, Tailwind Css, API",
+      description: "A Book-keeping Application",
+      live: "https://logikeep.vercel.app/",
+      code: "https://github.com/thebadmos/logikeep",
+      id: 13,
+    },
+    
+    {
       title: "Portfolio",
       tools: "Nextjs, CSS",
       description: "A portfolio website showcasing my works and resume.",
@@ -18,10 +36,10 @@ const Work1 = () => {
 
     {
       title: "eShopAfrica",
-      tools: "HTML, CSS, JS, API",
-      description: "Bringing international shopping to your doorstep anywhere in Africa (In Progress)",
-      live: "#",
-      code: "#",
+      tools: "ReactJs, Tailwind Css, API",
+      description: "Bringing international shopping to your doorstep anywhere in Africa",
+      live: "https://eshopafrica.vercel.app/",
+      code: "https://github.com/thebadmos/thebadmos",
       id: 2,
     },
 

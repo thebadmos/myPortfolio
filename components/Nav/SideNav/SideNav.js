@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from './SideNav.module.css';
-import { FaEnvelope, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaExternalLinkAlt, FaMedium, FaNode } from "react-icons/fa";
 
 
 const SideNav = () => {
@@ -11,7 +11,7 @@ const SideNav = () => {
                 <div className={styles.navHeader}>
                     <h1>Hello, I&apos;m <br/> Olamiji Badmos.</h1>
                     <p>I am a Frontend Developer. I create accessible and intuitive web applications by using modern web technologies.
-                        I am currently exploring the decentralized web.</p>
+                        I am currently exploring the decentralized web and technical writing.</p>
                 </div>
 
                 <nav className={styles.dNav}>
@@ -54,6 +54,24 @@ const SideNav = () => {
                             <a href="https://github.com/thebadmos"
                             target="_blank"
                             rel="noopener noreferrer">Github</a>
+                            <p><i><FaExternalLinkAlt /></i></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><i><FaMedium /></i></p>
+                            <a href="https://medium.com/@thebadmos"
+                            target="_blank"
+                            rel="noopener noreferrer">Medium</a>
+                            <p><i><FaExternalLinkAlt /></i></p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p><i><FaNode /></i></p>
+                            <a href="https://olamijibadmos.hashnode.dev/"
+                            target="_blank"
+                            rel="noopener noreferrer">HashNnode</a>
                             <p><i><FaExternalLinkAlt /></i></p>
                         </li>
                     </ul>
