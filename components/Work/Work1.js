@@ -20,7 +20,7 @@ const Work1 = () => {
       title: "LogiKeep",
       tools: "ReactJs, Tailwind Css, API",
       description: "A Book-keeping Application",
-      live: "https://logikeep.vercel.app/",
+      live: "https://logikeep-frontend.vercel.app/",
       code: "https://github.com/thebadmos/logikeep",
       id: 13,
     },
