@@ -24,6 +24,15 @@ const Work1 = () => {
       code: "https://github.com/thebadmos/logikeep",
       id: 13,
     },
+
+    {
+      title: "Siyonna",
+      tools: "VueJs, NuxtJs, Tailwind Css, Boostrap, API",
+      description: "E-commerce Application that provides buyers and sellers with an avenue to meet and exchange goods and services",
+      live: "https://staging.siyonna.com/",
+      code: "",
+      id: 14,
+    },
     
     {
       title: "Portfolio",
