@@ -70,6 +70,13 @@
 .template > h4 > hr {
   margin: 2px 0;
 }
+.template > h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  padding: 5px 5px 7px 0;
+  font-family: "Raleway", sans-serif;
+}
 
 .template > p {
   font-size: 15px;

@@ -8,134 +8,158 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
   const [works, setWorks] = useState([
     {
-      title: "TodayToday",
-      tools: "ReactJs, Tailwind Css, API",
-      description: "Online marketplace that provides buyers and sellers with an avenue to meet and exchange goods and services",
-      live: "https://today-today.vercel.app/",
-      code: "https://github.com/thebadmos/TodayToday",
-      id: 12,
-    },
-
-    {
       title: "LogiKeep",
-      tools: "ReactJs, Tailwind Css, API",
-      description: "A Book-keeping Application",
-      live: "https://logikeep-frontend.vercel.app/",
+      tools: "ReactJs, Redux, Tailwind Css, Styled Component, API",
+      description:
+        "Logikeep has become a trusted ally for businesses seeking to simplify and improve their bookkeeping processes. The project's success is a testament to my dedication to innovation and my commitment to helping businesses thrive.",
+      live: "https://logikeep.africa/",
       code: "https://github.com/thebadmos/logikeep",
       id: 13,
     },
 
     {
       title: "Siyonna",
-      tools: "VueJs, NuxtJs, Tailwind Css, Boostrap, API",
-      description: "E-commerce Application that provides buyers and sellers with an avenue to meet and exchange goods and services",
-      live: "https://staging.siyonna.com/",
+      tools: "VueJs, Vuex, SASS, Bootstrap, API",
+      description:
+        "Siyonna stands as a beacon of innovation in the E-commerce industry. The project's success is a testament to the power of collaboration, innovation, and a commitment to meeting the evolving needs of customers worldwide.",
+      live: "https://frontendtest.siyonna.com/",
       code: "",
       id: 14,
     },
-    
-    {
-      title: "Portfolio",
-      tools: "Nextjs, CSS",
-      description: "A portfolio website showcasing my works and resume.",
-      live: "#",
-      code: "https://github.com/thebadmos/thebadmos",
-      id: 1,
-    },
+
 
     {
-      title: "eShopAfrica",
+      title: "TodayToday",
       tools: "ReactJs, Tailwind Css, API",
-      description: "Bringing international shopping to your doorstep anywhere in Africa",
-      live: "https://eshopafrica.vercel.app/",
-      code: "https://github.com/thebadmos/thebadmos",
-      id: 2,
-    },
-
-    {
-      title: "MijiStore",
-      tools: "React, Boostrap, API",
       description:
-        "Built an E-commerce website which makes shopping easier",
-      live: "https://mijistore.netlify.app/",
-      code: "https://github.com/thebadmos/MijiStore",
-      id: 3,
+        "A cutting-edge online marketplace platform that aims to provide a dynamic avenue for buyers and sellers to connect and exchange goods and services. While the project is not live yet, the progress made thus far are commitment to delivering a transformative online marketplace.",
+      live: "https://today-today.vercel.app/",
+      code: "https://github.com/thebadmos/TodayToday",
+      id: 12,
     },
 
     {
-      title: "DealPot",
-      tools: "HTML, CSS, JS, Web Scraping",
+      title: "Summalogix",
+      tools: "VueJs, Bootstrap",
       description:
-        "An online application which seeks to reduce the time shoppers spend in finding the best deal",
-      live: "https://dealpot.herokuapp.com/",
-      code: "https://github.com/thebadmos/dealpot",
-      id: 4,
+        "The SummaLogix website is a testament to the company's commitment to excellence and innovation. It serves as a digital showcase of SummaLogix's vision and capabilities, providing a platform for tech-savvy individuals to connect with the company's offerings.",
+      live: "https://www.summalogix.com/",
+      code: "",
+      id: 15,
     },
 
     {
-      title: "Eazy Search",
-      tools: "React, API",
+      title: "TTIS",
+      tools: "ReactJs, Tailwind CSS",
       description:
-        "A go2go search application linking subcribed users to github",
-      live: "https://eazy-search.herokuapp.com/",
-      code: "https://github.com/thebadmos/eazysearch",
-      id: 5,
+        "The TTIS website represents a successful collaboration between technology, design, and mission-driven values. It stands as a digital embodiment of TTIS's dedication to pioneering DNA technology and promoting inclusivity within the tech community.",
+      live: "https://www.ttis.tech/",
+      code: "https://github.com/thebadmos/ttis-website",
+      id: 16,
     },
 
-    {
-      title: "Admin Dashboard",
-      tools: "React, Styled-components, Redux, API",
-      description: "A dashboard that showcases the administrative UI of an application (In Progress)",
-      live: "#",
-      code: "#",
-      id: 6,
-    },
-    {
-      title: "Weather App",
-      tools: "React, Context API",
-      description: 
-      "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
-      live: "https://wea-apps.netlify.app/",
-      code: "https://github.com/thebadmos/weatherApp",
-      id: 7,
-    },
+    // {
+    //   title: "Portfolio",
+    //   tools: "Nextjs, CSS",
+    //   description: "A portfolio website showcasing my works and resume.",
+    //   live: "#",
+    //   code: "https://github.com/thebadmos/thebadmos",
+    //   id: 1,
+    // },
 
-    {
-      title: "UI inspiration",
-      tools: "React, Styled-components",
-      description:
-        "A landing page for a UI insipiration",
-      live: "https://uinspiration.netlify.app/",
-      code: "https://github.com/thebadmos/uinspiration",
-      id: 8,
-    },
+    // {
+    //   title: "eShopAfrica",
+    //   tools: "ReactJs, Tailwind Css, API",
+    //   description: "Bringing international shopping to your doorstep anywhere in Africa",
+    //   live: "https://eshopafrica.vercel.app/",
+    //   code: "https://github.com/thebadmos/thebadmos",
+    //   id: 2,
+    // },
 
-    {
-      title: "Sales Report",
-      tools: "React, Styled-components, API",
-      description: "A Snippet landing page for a sales report",
-      live: "https://salesreport-skyhigh.netlify.app/",
-      code: "https://github.com/thebadmos/SalesReport",
-      id: 9,
-    },
+    // {
+    //   title: "MijiStore",
+    //   tools: "React, Bootstrap, API",
+    //   description:
+    //     "Built an E-commerce website which makes shopping easier",
+    //   live: "https://mijistore.netlify.app/",
+    //   code: "https://github.com/thebadmos/MijiStore",
+    //   id: 3,
+    // },
 
-    {
-      title: "Trulogistics",
-      tools: "HTML, SASS, JavaScript ",
-      description: "A logistics website",
-      live: "https://logisticstruckka.netlify.app/",
-      code: "https://github.com/thebadmos/truckLogistics",
-      id: 10,
-    },
+    // {
+    //   title: "DealPot",
+    //   tools: "HTML, CSS, JS, Web Scraping",
+    //   description:
+    //     "An online application which seeks to reduce the time shoppers spend in finding the best deal",
+    //   live: "https://dealpot.herokuapp.com/",
+    //   code: "https://github.com/thebadmos/dealpot",
+    //   id: 4,
+    // },
 
-    {
-      title: "Truspace",
-      tools: "HTML, CSS, JS",
-      description: "A co-working website built with pure HTML,CSS and JS",
-      live: "https://truspaceco.netlify.app/",
-      code: "https://github.com/thebadmos/coWorking",
-      id: 11,
-    },
+    // {
+    //   title: "Eazy Search",
+    //   tools: "React, API",
+    //   description:
+    //     "A go2go search application linking subcribed users to github",
+    //   live: "https://eazy-search.herokuapp.com/",
+    //   code: "https://github.com/thebadmos/eazysearch",
+    //   id: 5,
+    // },
+
+    // {
+    //   title: "Admin Dashboard",
+    //   tools: "React, Styled-components, Redux, API",
+    //   description: "A dashboard that showcases the administrative UI of an application (In Progress)",
+    //   live: "#",
+    //   code: "#",
+    //   id: 6,
+    // },
+    // {
+    //   title: "Weather App",
+    //   tools: "React, Context API",
+    //   description:
+    //   "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
+    //   live: "https://wea-apps.netlify.app/",
+    //   code: "https://github.com/thebadmos/weatherApp",
+    //   id: 7,
+    // },
+
+    // {
+    //   title: "UI inspiration",
+    //   tools: "React, Styled-components",
+    //   description:
+    //     "A landing page for a UI insipiration",
+    //   live: "https://uinspiration.netlify.app/",
+    //   code: "https://github.com/thebadmos/uinspiration",
+    //   id: 8,
+    // },
+
+    // {
+    //   title: "Sales Report",
+    //   tools: "React, Styled-components, API",
+    //   description: "A Snippet landing page for a sales report",
+    //   live: "https://salesreport-skyhigh.netlify.app/",
+    //   code: "https://github.com/thebadmos/SalesReport",
+    //   id: 9,
+    // },
+
+    // {
+    //   title: "Trulogistics",
+    //   tools: "HTML, SASS, JavaScript ",
+    //   description: "A logistics website",
+    //   live: "https://logisticstruckka.netlify.app/",
+    //   code: "https://github.com/thebadmos/truckLogistics",
+    //   id: 10,
+    // },
+
+    // {
+    //   title: "Truspace",
+    //   tools: "HTML, CSS, JS",
+    //   description: "A co-working website built with pure HTML,CSS and JS",
+    //   live: "https://truspaceco.netlify.app/",
+    //   code: "https://github.com/thebadmos/coWorking",
+    //   id: 11,
+    // },
   ]);
 
   const footerLinks = [
