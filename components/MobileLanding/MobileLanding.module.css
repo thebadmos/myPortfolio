@@ -34,7 +34,7 @@
 
 .home > p {
   font-size: 14px;
-  color: #fff;
+  color: #777778;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   line-height: 1.7;
@@ -68,6 +68,7 @@
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .home > .explore > a > i {
@@ -98,7 +99,7 @@
 }
 
 .footer > p {
-  color: #777778;
+  color: #fff;
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   text-decoration: none;

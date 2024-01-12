@@ -6,7 +6,7 @@ import {
   FaExternalLinkAlt,
   FaMedium,
   FaNode,
-  FaLinkedin 
+  FaLinkedin,
 } from "react-icons/fa";
 
 const SideNav = () => {
@@ -18,13 +18,13 @@ const SideNav = () => {
             Hello, I&apos;m <br /> Olamiji Badmos.
           </h1>
           <p>
-            A passionate front-end developer on a mission to transform digital
-            concepts into captivating, functional, and user-friendly
-            experiences. My journey in the realm of web development has been an
-            exhilarating one, marked by creativity, innovation, and an unceasing
-            drive for excellence.
+            As a dedicated front-end developer, my goal is to create engaging
+            and user-friendly digital experiences. My journey in web development
+            is a mix of creativity, innovation, and a constant drive for
+            excellence. Beyond coding, I extend my love for technology by
+            sharing computer-related knowledge through the art of writing,
+            contributing to a community where insights thrive.
           </p>
-       
         </div>
 
         <nav className={styles.dNav}>
@@ -32,18 +32,27 @@ const SideNav = () => {
             <li>
               <Link href="/">
                 <a>
-                  <span>00</span>
+                  <span>01</span>
                   <div className={styles.btnNavLine}></div>
-                  <span>Work</span>
+                  <span>Projects</span>
                 </a>
               </Link>
             </li>
             <li>
               <Link href="Resume">
                 <a>
-                  <span>01</span>
+                  <span>02</span>
                   <div className={styles.btnNavLine}></div>
                   <span>Resume</span>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="Articles">
+                <a>
+                  <span>03</span>
+                  <div className={styles.btnNavLine}></div>
+                  <span>Articles</span>
                 </a>
               </Link>
             </li>
@@ -130,28 +139,28 @@ const SideNav = () => {
             <li>
               <p>
                 <i>
-                <FaLinkedin />
+                  <FaLinkedin />
                 </i>
               </p>
               <a
-            href="https://www.linkedin.com/in/olamijibadmos/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           Linkedin
-          </a>
+                href="https://www.linkedin.com/in/olamijibadmos/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Linkedin
+              </a>
             </li>
           </ul>
         </div>
 
-        <div className={styles.inspire}>
+        {/* <div className={styles.inspire}>
           <span>
             inspired by{" "}
             <a href="#" target="_blank" rel="noopener noreferrer">
               Devs
             </a>
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

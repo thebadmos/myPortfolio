@@ -45,7 +45,7 @@ const Footer = ({ footerLinks }) => {
               </a>
         </div>
 
-        <p>
+        {/* <p>
           inspired by{" "}
           <a
             href="#"
@@ -54,7 +54,7 @@ const Footer = ({ footerLinks }) => {
           >
             <span>Devs</span>
           </a>
-        </p>
+        </p> */}
       </footer>
     </div>
   );

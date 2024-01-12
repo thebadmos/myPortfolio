@@ -16,6 +16,7 @@ const MobileNav = () => {
                     <Link href="/"><a onClick={() => setIsOpen(!isOpen)}>Home</a></Link>
                     <Link href="Work"><a onClick={() => setIsOpen(!isOpen)}>Work</a></Link>
                     <Link href="Resume"><a onClick={() => setIsOpen(!isOpen)}>Resume</a></Link>
+                    {/* <Link href="Articles"><a onClick={() => setIsOpen(!isOpen)}>Articles</a></Link> */}
                     {/* <Link href="Contact"><a onClick={() => setIsOpen(!isOpen)}>Contact</a></Link> */}
                 </div>
                 

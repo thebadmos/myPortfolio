@@ -15,11 +15,12 @@ const MobileLanding = () => {
           <h1>Hello, I&apos;m Olamiji Badmos.</h1>
           <p>
             {" "}
-            A passionate front-end developer on a mission to transform digital
-            concepts into captivating, functional, and user-friendly
-            experiences. My journey in the realm of web development has been an
-            exhilarating one, marked by creativity, innovation, and an unceasing
-            drive for excellence.
+            As a dedicated front-end developer, my goal is to create engaging
+            and user-friendly digital experiences. My journey in web development
+            is a mix of creativity, innovation, and a constant drive for
+            excellence. Beyond coding, I extend my love for technology by
+            sharing computer-related knowledge through the art of writing,
+            contributing to a community where insights thrive.
           </p>
 
           <Link href="Work" passHref>
@@ -65,12 +66,12 @@ const MobileLanding = () => {
             </a>
           </div>
 
-          <p>
+          {/* <p>
             inspired by{" "}
             <a href="#" target="_blank" rel="noopener noreferrer">
               <span>Devs</span>
             </a>
-          </p>
+          </p> */}
         </footer>
       </div>
     </div>

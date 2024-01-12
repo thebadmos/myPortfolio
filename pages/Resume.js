@@ -7,21 +7,21 @@ const Resume = () => {
   const footerLinks = [
     {
       link: "/Work",
-      title: "Work",
+      title: "Projects",
       id: 1,
     },
-    // {
-    //   link: "/Contact",
-    //   title: "Contact",
-    //   id: 2,
-    // },
+    {
+      link: "/Articles",
+      title: "Articles",
+      id: 2,
+    },
   ];
 
   return (
     <div className={styles.container}>
       <div className={styles.resume}>
         <div className={styles.userInfo}>
-          <h1>Olamiji Badmos</h1>
+          <h1>Front-end Developer</h1>
           <ul className={styles.download}>
             <li>
               <a
@@ -38,7 +38,7 @@ const Resume = () => {
 
             <li>
               <a
-                href="https://drive.google.com/file/d/1ivzH2KRxBEatc5-UA7Ll0FdufyvIyDLN/view?usp=sharing"
+                href="https://drive.google.com/file/d/1S2Zyy4YajsaYGWTeFJK-wXM4UyKkUMMB/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,17 +52,16 @@ const Resume = () => {
         </div>
 
         <div className={styles.template}>
-          <h4>
+          {/* <h4>
             Front-end Developer <hr />
-          </h4>
+          </h4> */}
+      
           <p>
-            As a front-end developer, I specialize in breathing life into the
-            visual aspects of websites and web applications. My expertise lies
-            in translating design concepts into elegant and responsive user
-            interfaces that engage and delight visitors. Whether it&apos;s
-            crafting pixel-perfect layouts, enhancing user experiences, or
-            optimizing performance, I&apos;m committed to the art of creating
-            exceptional digital solutions.
+            As a front-end developer, I turn design ideas into engaging web
+            experiences. I specialize in creating user-friendly interfaces with
+            pixel-perfect precision. I&apos;m committed to enhancing user
+            satisfaction and always ready to learn new technologies to tackle
+            challenges head-on
           </p>
         </div>
 
@@ -71,7 +70,7 @@ const Resume = () => {
             Technical Skills <hr />
           </h4>
           <p>
-            • Front-end Technologies: React.js, Vue.js <br />
+            • Front-end Technologies: React.js, Vue.js, React Native <br />
             • UI Libraries: Tailwind Css, Material-UI, Styled Component,
             Bootstrap <br />
             • State Management: Redux, Vuex <br /> • Web APIs: Fetch API, Axios{" "}
@@ -81,7 +80,7 @@ const Resume = () => {
           </p>
         </div>
 
-        <div className={styles.template}>
+        {/* <div className={styles.template}>
           <h4>
             Soft Skills <hr />
           </h4>
@@ -100,8 +99,8 @@ const Resume = () => {
             Management: Managing tasks and deadlines efficiently. Accurately
             maintaining code quality and project delivery standards.
           </p>
-        </div>
-        <div className={styles.template}>
+        </div> */}
+        {/* <div className={styles.template}>
           <h4>
             Experience <hr />
           </h4>
@@ -149,7 +148,7 @@ const Resume = () => {
             offering efficient and innovative bookkeeping solutions.
           </p>
 
-          {/* second */}
+       
 
           <h4>
             Summa Logix - <span>Front-end developer</span>
@@ -193,9 +192,9 @@ const Resume = () => {
             establishing a vibrant and efficient online marketplace, poised for
             further enhancements and extended implementation in the future.
           </p>
-        </div>
+        </div> */}
 
-        <div className={styles.template}>
+        {/* <div className={styles.template}>
           <h4>
             Education
             <hr />
@@ -209,7 +208,7 @@ const Resume = () => {
             user-centric experiences and innovative solutions in the digital
             realm.
           </h6>
-        </div>
+        </div> */}
       </div>
       <div className={styles.footerlinks}>
         <Footer footerLinks={footerLinks} />

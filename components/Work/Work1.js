@@ -9,157 +9,52 @@ const Work1 = () => {
   const [works, setWorks] = useState([
     {
       title: "LogiKeep",
-      tools: "ReactJs, Redux, Tailwind Css, Styled Component, API",
+      tools: "ReactJs, Redux, Tailwind Css, Styled Component, API Integration",
       description:
-        "Logikeep has become a trusted ally for businesses seeking to simplify and improve their bookkeeping processes. The project's success is a testament to my dedication to innovation and my commitment to helping businesses thrive.",
+        "Logikeep stands as a testament to my commitment to innovation and dedication to empowering businesses. As a trusted ally, Logikeep streamlines and enhances bookkeeping processes, offering simplicity and efficiency.",
       live: "https://logikeep.africa/",
-      code: "https://github.com/thebadmos/logikeep",
+      // code: "https://github.com/thebadmos/logikeep",
       id: 13,
     },
 
     {
-      title: "Siyonna",
-      tools: "VueJs, Vuex, SASS, Bootstrap, API",
+      title: "eShopAfrica",
+      tools: "ReactJs, Styled Component, API Integration",
       description:
-        "Siyonna stands as a beacon of innovation in the E-commerce industry. The project's success is a testament to the power of collaboration, innovation, and a commitment to meeting the evolving needs of customers worldwide.",
-      live: "https://frontendtest.siyonna.com/",
-      code: "",
-      id: 14,
-    },
-
-
-    {
-      title: "TodayToday",
-      tools: "ReactJs, Tailwind Css, API",
-      description:
-        "A cutting-edge online marketplace platform that aims to provide a dynamic avenue for buyers and sellers to connect and exchange goods and services. While the project is not live yet, the progress made thus far are commitment to delivering a transformative online marketplace.",
-      live: "https://today-today.vercel.app/",
-      code: "https://github.com/thebadmos/TodayToday",
-      id: 12,
+        "Bringing international shopping to your doorstep anywhere in Africa. The project is dedicated to bridging borders and bringing the world of online shopping to your fingertips.",
+      live: "https://eshopafrica.co/",
+      // code: "https://github.com/thebadmos/thebadmos",
+      id: 2,
     },
 
     {
-      title: "Summalogix",
-      tools: "VueJs, Bootstrap",
+      title: "Labour Market",
+      tools: "ReactJs, Redux, API Integration ",
       description:
-        "The SummaLogix website is a testament to the company's commitment to excellence and innovation. It serves as a digital showcase of SummaLogix's vision and capabilities, providing a platform for tech-savvy individuals to connect with the company's offerings.",
-      live: "https://www.summalogix.com/",
-      code: "",
-      id: 15,
+        "LabourMarket is a dynamic initiative designed to seamlessly bridge the gap between job seekers and employers. This platform is crafted to empower employers in finding the right talent and individuals in discovering rewarding job opportunities.",
+      live: "https://labour-market.vercel.app/",
+      // code: "https://github.com/thebadmos/ttis-website",
+      id: 3,
     },
 
+    {
+      title: "AddGoals",
+      tools: "React Native, CSS ",
+      description:
+        "This project was a personal exploration, aimed at mastering React Native. With AddGoals, users can effortlessly add their goals. ",
+      live: "https://github.com/thebadmos/addgoals",
+      // code: "https://github.com/thebadmos/ttis-website",
+      id: 4,
+    },
     {
       title: "TTIS",
       tools: "ReactJs, Tailwind CSS",
       description:
-        "The TTIS website represents a successful collaboration between technology, design, and mission-driven values. It stands as a digital embodiment of TTIS's dedication to pioneering DNA technology and promoting inclusivity within the tech community.",
+        "The TTIS company website represents a successful collaboration between technology, design, and mission-driven values. It stands as a digital embodiment of TTIS's dedication to pioneering DNA technology and promoting inclusivity within the tech community.",
       live: "https://www.ttis.tech/",
-      code: "https://github.com/thebadmos/ttis-website",
+      // code: "https://github.com/thebadmos/ttis-website",
       id: 16,
     },
-
-    // {
-    //   title: "Portfolio",
-    //   tools: "Nextjs, CSS",
-    //   description: "A portfolio website showcasing my works and resume.",
-    //   live: "#",
-    //   code: "https://github.com/thebadmos/thebadmos",
-    //   id: 1,
-    // },
-
-    // {
-    //   title: "eShopAfrica",
-    //   tools: "ReactJs, Tailwind Css, API",
-    //   description: "Bringing international shopping to your doorstep anywhere in Africa",
-    //   live: "https://eshopafrica.vercel.app/",
-    //   code: "https://github.com/thebadmos/thebadmos",
-    //   id: 2,
-    // },
-
-    // {
-    //   title: "MijiStore",
-    //   tools: "React, Bootstrap, API",
-    //   description:
-    //     "Built an E-commerce website which makes shopping easier",
-    //   live: "https://mijistore.netlify.app/",
-    //   code: "https://github.com/thebadmos/MijiStore",
-    //   id: 3,
-    // },
-
-    // {
-    //   title: "DealPot",
-    //   tools: "HTML, CSS, JS, Web Scraping",
-    //   description:
-    //     "An online application which seeks to reduce the time shoppers spend in finding the best deal",
-    //   live: "https://dealpot.herokuapp.com/",
-    //   code: "https://github.com/thebadmos/dealpot",
-    //   id: 4,
-    // },
-
-    // {
-    //   title: "Eazy Search",
-    //   tools: "React, API",
-    //   description:
-    //     "A go2go search application linking subcribed users to github",
-    //   live: "https://eazy-search.herokuapp.com/",
-    //   code: "https://github.com/thebadmos/eazysearch",
-    //   id: 5,
-    // },
-
-    // {
-    //   title: "Admin Dashboard",
-    //   tools: "React, Styled-components, Redux, API",
-    //   description: "A dashboard that showcases the administrative UI of an application (In Progress)",
-    //   live: "#",
-    //   code: "#",
-    //   id: 6,
-    // },
-    // {
-    //   title: "Weather App",
-    //   tools: "React, Context API",
-    //   description:
-    //   "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
-    //   live: "https://wea-apps.netlify.app/",
-    //   code: "https://github.com/thebadmos/weatherApp",
-    //   id: 7,
-    // },
-
-    // {
-    //   title: "UI inspiration",
-    //   tools: "React, Styled-components",
-    //   description:
-    //     "A landing page for a UI insipiration",
-    //   live: "https://uinspiration.netlify.app/",
-    //   code: "https://github.com/thebadmos/uinspiration",
-    //   id: 8,
-    // },
-
-    // {
-    //   title: "Sales Report",
-    //   tools: "React, Styled-components, API",
-    //   description: "A Snippet landing page for a sales report",
-    //   live: "https://salesreport-skyhigh.netlify.app/",
-    //   code: "https://github.com/thebadmos/SalesReport",
-    //   id: 9,
-    // },
-
-    // {
-    //   title: "Trulogistics",
-    //   tools: "HTML, SASS, JavaScript ",
-    //   description: "A logistics website",
-    //   live: "https://logisticstruckka.netlify.app/",
-    //   code: "https://github.com/thebadmos/truckLogistics",
-    //   id: 10,
-    // },
-
-    // {
-    //   title: "Truspace",
-    //   tools: "HTML, CSS, JS",
-    //   description: "A co-working website built with pure HTML,CSS and JS",
-    //   live: "https://truspaceco.netlify.app/",
-    //   code: "https://github.com/thebadmos/coWorking",
-    //   id: 11,
-    // },
   ]);
 
   const footerLinks = [
@@ -173,6 +68,11 @@ const Work1 = () => {
       title: "Resume",
       id: 2,
     },
+    {
+      link: "/Articles",
+      title: "Articles",
+      id: 3,
+    },
   ];
 
   return (
@@ -181,8 +81,10 @@ const Work1 = () => {
         <div className={styles.workCard} key="index">
           <div className={styles.card}>
             <h2>{work.title}</h2>
-            <h3>{work.tools}</h3>
+
             <p>{work.description}</p>
+        
+            <h4>{work.tools}</h4>
             <ul className={styles.links}>
               <li>
                 <i>
@@ -192,14 +94,14 @@ const Work1 = () => {
                   live
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <i>
                   <FaLink />
                 </i>
                 <a href={work.code} target="_blank" rel="noopener noreferrer">
                   code
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
